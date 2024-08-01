@@ -1,0 +1,56 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "about-me" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About me"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre mim"
+          }
+        }
+      }
+    },
+    "about-me-chess-invite" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se quiser jogar comigo basta colar lá no https://www.chess.com/member/pedrocabrz"
+          }
+        }
+      }
+    },
+    "about-me-description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queria começar me apresentando: Me chamo Pedro Veloso, tenho %d anos e sou natural de Recife/PE mas moro em São Paulo desde 2018.  Sou casado com a Beatriz, e tutor da Tutti a SRD mais linda deste planeta inteiro."
+          }
+        }
+      }
+    },
+    "about-me-hobbies" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meu principal hobby é o xadrez (pelo menos ultimamente). Sou o que chamam dentro do esporte de capivara, o equivalente ao que chamamos no nordeste de _perronha_ no futebol. "
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
