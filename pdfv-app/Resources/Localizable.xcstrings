@@ -1,23 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "about-me" : {
-      "extractionState" : "manual",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About me"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sobre mim"
-          }
-        }
-      }
-    },
     "about-me-chess-invite" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -47,6 +30,67 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meu principal hobby é o xadrez (pelo menos ultimamente). Sou o que chamam dentro do esporte de capivara, o equivalente ao que chamamos no nordeste de _perronha_ no futebol. "
+          }
+        }
+      }
+    },
+    "about-me-title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About me"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sobre mim"
+          }
+        }
+      }
+    },
+    "career-intro" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Considero que comecei minha carreira como desenvolvedor de sistemas em 2011. Há longínquos %d anos atrás.\nTenho muito orgulho em dizer que já trabalhei com muitas tecnologias diferentes. "
+          }
+        }
+      }
+    },
+    "career-title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Carreira"
+          }
+        }
+      }
+    },
+    "education-description" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sou formado em Sistemas de Informação pela UFRPE. A melhor faculdade em linha reta do Brasil, segundo eu mesmo.\n \nTenho muito carinho pela faculdade e pelos amigos que fiz durante os longos 10 anos de curso. Sim, demorei isso tudo.\n \nEntre trabalhos, desistências e mudanças de áreas, consegui me formar em 2019. "
+          }
+        }
+      }
+    },
+    "education-title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formação"
           }
         }
       }

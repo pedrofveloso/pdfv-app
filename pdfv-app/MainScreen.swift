@@ -12,7 +12,7 @@ struct MainScreen: View {
         TabView {
             AboutMeScreen()
                 .tabItem {
-                    Label("about-me", systemImage: "person.crop.circle.fill")
+                    Label("about-me-title", systemImage: "person.crop.circle.fill")
                 }
         }
     }

@@ -15,6 +15,9 @@
 		EC6CA9452C55949400ED3E14 /* pdfv_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CA9442C55949400ED3E14 /* pdfv_appUITests.swift */; };
 		EC6CA9472C55949400ED3E14 /* pdfv_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CA9462C55949400ED3E14 /* pdfv_appUITestsLaunchTests.swift */; };
 		EC9039782C5C440800CCCD0D /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = EC9039772C5C440800CCCD0D /* Localizable.xcstrings */; };
+		EC90397B2C5DB0F300CCCD0D /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */; };
+		EC90397D2C5DB1DF00CCCD0D /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */; };
+		EC9039802C5DC86900CCCD0D /* BouncyAnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397F2C5DC86900CCCD0D /* BouncyAnimationModifier.swift */; };
 		ECBB531A2C5598FE00E910FE /* AboutMeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +51,9 @@
 		EC6CA9442C55949400ED3E14 /* pdfv_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfv_appUITests.swift; sourceTree = "<group>"; };
 		EC6CA9462C55949400ED3E14 /* pdfv_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdfv_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EC9039772C5C440800CCCD0D /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
+		EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		EC90397F2C5DC86900CCCD0D /* BouncyAnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyAnimationModifier.swift; sourceTree = "<group>"; };
 		ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,13 +105,14 @@
 		EC6CA9272C55949300ED3E14 /* pdfv-app */ = {
 			isa = PBXGroup;
 			children = (
-				ECBB53182C55989B00E910FE /* AboutMe */,
-				EC6CA9282C55949300ED3E14 /* AppEntry.swift */,
-				EC6CA92C2C55949400ED3E14 /* Assets.xcassets */,
-				EC6CA92A2C55949300ED3E14 /* MainScreen.swift */,
 				EC6CA92E2C55949400ED3E14 /* pdfv_app.entitlements */,
+				EC6CA9282C55949300ED3E14 /* AppEntry.swift */,
+				EC6CA92A2C55949300ED3E14 /* MainScreen.swift */,
+				EC6CA92C2C55949400ED3E14 /* Assets.xcassets */,
+				ECBB53182C55989B00E910FE /* AboutMe */,
 				EC6CA92F2C55949400ED3E14 /* Preview Content */,
 				EC9039762C5C43D100CCCD0D /* Resources */,
+				EC90397E2C5DC85100CCCD0D /* View Modifiers */,
 			);
 			path = "pdfv-app";
 			sourceTree = "<group>";
@@ -143,10 +150,20 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		EC90397E2C5DC85100CCCD0D /* View Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				EC90397F2C5DC86900CCCD0D /* BouncyAnimationModifier.swift */,
+			);
+			path = "View Modifiers";
+			sourceTree = "<group>";
+		};
 		ECBB53182C55989B00E910FE /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
 				ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */,
+				EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */,
+				EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -283,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC90397D2C5DB1DF00CCCD0D /* EducationView.swift in Sources */,
+				EC90397B2C5DB0F300CCCD0D /* AboutMeView.swift in Sources */,
 				ECBB531A2C5598FE00E910FE /* AboutMeScreen.swift in Sources */,
 				EC6CA92B2C55949300ED3E14 /* MainScreen.swift in Sources */,
+				EC9039802C5DC86900CCCD0D /* BouncyAnimationModifier.swift in Sources */,
 				EC6CA9292C55949300ED3E14 /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
