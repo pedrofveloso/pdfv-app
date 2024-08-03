@@ -18,6 +18,7 @@
 		EC90397B2C5DB0F300CCCD0D /* AboutMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */; };
 		EC90397D2C5DB1DF00CCCD0D /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */; };
 		EC9039802C5DC86900CCCD0D /* BouncyAnimationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90397F2C5DC86900CCCD0D /* BouncyAnimationModifier.swift */; };
+		EC9039822C5DCB3F00CCCD0D /* CareerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9039812C5DCB3F00CCCD0D /* CareerView.swift */; };
 		ECBB531A2C5598FE00E910FE /* AboutMeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeView.swift; sourceTree = "<group>"; };
 		EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 		EC90397F2C5DC86900CCCD0D /* BouncyAnimationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyAnimationModifier.swift; sourceTree = "<group>"; };
+		EC9039812C5DCB3F00CCCD0D /* CareerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerView.swift; sourceTree = "<group>"; };
 		ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -164,6 +166,7 @@
 				ECBB53192C5598FE00E910FE /* AboutMeScreen.swift */,
 				EC90397A2C5DB0F300CCCD0D /* AboutMeView.swift */,
 				EC90397C2C5DB1DF00CCCD0D /* EducationView.swift */,
+				EC9039812C5DCB3F00CCCD0D /* CareerView.swift */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC90397D2C5DB1DF00CCCD0D /* EducationView.swift in Sources */,
+				EC9039822C5DCB3F00CCCD0D /* CareerView.swift in Sources */,
 				EC90397B2C5DB0F300CCCD0D /* AboutMeView.swift in Sources */,
 				ECBB531A2C5598FE00E910FE /* AboutMeScreen.swift in Sources */,
 				EC6CA92B2C55949300ED3E14 /* MainScreen.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AboutMeScreen: View {    
+struct AboutMeScreen: View {
     var body: some View {
         VStack {
             TabView() {
@@ -15,7 +15,7 @@ struct AboutMeScreen: View {
                 
                 EducationView()
                 
-                Text("career-title")
+                CareerView()
             }
             .tabViewStyle(.page(indexDisplayMode: .never))
             .padding()

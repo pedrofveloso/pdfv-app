@@ -22,8 +22,6 @@ struct AboutMeView: View {
             
             Text("about-me-chess-invite")
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .bouncyAnimationEffect()
     }
 }
 

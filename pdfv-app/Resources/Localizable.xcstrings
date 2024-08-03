@@ -18,7 +18,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Queria começar me apresentando: Me chamo Pedro Veloso, tenho %d anos e sou natural de Recife/PE mas moro em São Paulo desde 2018.  Sou casado com a Beatriz, e tutor da Tutti a SRD mais linda deste planeta inteiro."
+            "value" : "Queria começar me apresentando: Me chamo Pedro Veloso, tenho %d anos e sou natural de Recife/PE mas moro em São Paulo desde 2018.  \nSou casado com a Beatriz, e tutor da Tutti a SRD mais linda deste planeta inteiro."
           }
         }
       }
@@ -51,13 +51,101 @@
         }
       }
     },
+    "career-beyond-technical" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para além do técnico"
+          }
+        }
+      }
+    },
+    "career-companies" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ja trabalhei para várias empresas, de diferentes tamanhos e diferentes setores, isso me fez conhecer muitas tecnologias diferentes o que eu acho bem bacana."
+          }
+        }
+      }
+    },
+    "career-conclusion" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "É isso! Esse sou eu. Aos que leram até aqui, espero que tenham curtido um pouco da minha história! \n Se quiser bater um papo, é só me chamar!   Um forte abraço!"
+          }
+        }
+      }
+    },
     "career-intro" : {
       "extractionState" : "manual",
       "localizations" : {
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Considero que comecei minha carreira como desenvolvedor de sistemas em 2011. Há longínquos %d anos atrás.\nTenho muito orgulho em dizer que já trabalhei com muitas tecnologias diferentes. "
+            "value" : "Considero que comecei minha carreira como desenvolvedor de sistemas em 2011. Há longínquos %d anos atrás.\n\nTenho muito orgulho em dizer que já trabalhei com muitas tecnologias diferentes. "
+          }
+        }
+      }
+    },
+    "career-ios" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O foco da minha carreira é desenvolvimento iOS, no qual eu tenho pouco mais de %d anos de experiência no total, dos quais %d anos tem sido com desenvolvimento Swift e 1 ano e alguns meses com desenvolvimento em Objective-C."
+          }
+        }
+      }
+    },
+    "career-js" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dentre as tecnologias em questão eu gosto muito de citar JS (JavaScript). Eu tenho um carinho especial pela linguagem. Não sou um ninja nessa stack, mas consigo me virar bem. A maioria das coisas que faço fora do mundo iOS é em JS, principalmente quando me aventuro no back-end utilizando node. "
+          }
+        }
+      }
+    },
+    "career-leadership" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em 2024 eu tive a minha primeira experiência como  tech lead e posteriormente como team lead. \n Foi uma experiência diferente. Após alguns meses nesses papeis eu entendi que a parte de liderança de projetos não é algo que me brilha os olhos. \nFoi algo que, apesar de ter um bom desempenho, eu não fazia com tanta naturalidade quanto ser desenvolvedor ou gestor de pessoas. \n Foi neste momento que decidi “voltar à minha carreira de desenvolvedor” e focar naquilo que eu faço com mais naturalidade. "
+          }
+        }
+      }
+    },
+    "career-people-management" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em 2023 eu tive a minha primeira oportunidade de trabalhar como gestor de pessoas. \nEu realmente gostei bastante desse papel. Acho que uma das minhas grandes fortalezas é a troca de experiências, coisa que é importantíssima numa relação de gestão. \n\nDentre as minhas responsabilidades estavam fazer 1:1s recorrentes, dar feedbacks, PDIs/Growth areas, avaliação de performance e outras atividades mais burocráticas. \n\nEu cheguei a ter 5 pessoas sob minha gestão, e me orgulho demais do trabalho feito, o qual me rendeu ótimos feedbacks. \n\nEssa parte de gestão de pessoas eu realmente gostei muito de fazer, e é algo que eu gostaria de fazer novamente em minha carreira."
+          }
+        }
+      }
+    },
+    "career-technical" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Técnico"
           }
         }
       }
@@ -69,6 +157,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Carreira"
+          }
+        }
+      }
+    },
+    "career-tools" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para além disso tenho experiência com CI/CD (Bitrise, Github actions e Fastlane), testes unitários e de UI (XCTest e Quick/Nimble) e metodologias ágeis (Scrum e Kanban)."
           }
         }
       }

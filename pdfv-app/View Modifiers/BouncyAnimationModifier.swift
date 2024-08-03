@@ -19,15 +19,12 @@ private struct BouncyAnimationModifier: ViewModifier {
                         stiffness: 300,
                         damping: 15
                     )
-                    .delay(0.15)
                 ) {
                     isVisible = true
                 }
             }
             .onDisappear {
-                withAnimation(.easeOut) {
-                    isVisible = false
-                }
+                isVisible = false
             }
     }
 }
