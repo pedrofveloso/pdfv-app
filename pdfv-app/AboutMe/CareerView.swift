@@ -40,8 +40,8 @@ struct CareerView: View {
                 Text("career-conclusion")
             }
             .padding(.trailing, 8)
+            .toolbar(.hidden, for: .tabBar)
         }
-        .scrollIndicatorsFlash(onAppear: true)
     }
 }
 

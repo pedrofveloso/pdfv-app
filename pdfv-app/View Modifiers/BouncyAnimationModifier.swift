@@ -19,6 +19,7 @@ private struct BouncyAnimationModifier: ViewModifier {
                         stiffness: 300,
                         damping: 15
                     )
+                    .delay(0.2)
                 ) {
                     isVisible = true
                 }

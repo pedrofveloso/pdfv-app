@@ -16,7 +16,6 @@ struct EducationView: View {
             
             Text("education-description")
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 

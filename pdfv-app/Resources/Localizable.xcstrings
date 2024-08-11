@@ -193,6 +193,28 @@
           }
         }
       }
+    },
+    "name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pedro Veloso"
+          }
+        }
+      }
+    },
+    "profession" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iOS App Engineer"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"
